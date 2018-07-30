@@ -1,0 +1,133 @@
+body,
+p,
+h1,
+h2,
+h3,
+ul,
+li,
+dl,
+dd,
+dt {
+    margin:0;
+    padding: 0;
+}
+
+img {
+    border: none;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    color:#333;
+    text-decoration: none;
+}
+
+.box{
+    /*width: 1000px;*/
+    /*margin: 0 auto;*/
+    /*padding-top: 24px;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    overflow: hidden;
+    /*background: #000;*/
+    /*background: url("../i2/bg.png");*/
+}
+.comment{
+
+    margin:24px 100px 0 0;
+    float:right;
+    width: 280px;
+    height: 405px;
+    padding: 10px;
+    background: url("../images/bg6.png")no-repeat;
+
+}
+textarea{
+    width: 270px;
+    height: 240px;
+    margin: 0 auto;
+    resize:none;
+}
+.comment-btn{
+    width: 229px;
+    height: 75px;
+    margin: 40px auto;
+    background: url("../images/comment-btn3.png")no-repeat;
+    cursor:pointer;
+}
+.comment-link {
+    width: 280px;
+    height: 50px;
+    text-align: center;
+}
+.comment-link img {
+    margin-top: 18px;
+}
+
+
+.message {
+    height: 600px;
+    margin-right:420px;
+    color: #fff;
+}
+
+.message .message-item{
+    width: 284px;
+    height: 284px;
+    position:absolute;
+    top:50px;
+    right:150px;
+}
+.message .message-item:hover{
+    z-index:1000;
+}
+.message .cHover{
+    z-index:999;
+}
+
+.current{
+
+}
+
+.close1{
+    width: 32px;
+    height: 32px;
+    background: url("../images/close.png")no-repeat;
+    position:absolute;
+    top: 10px;
+    left: 22px;
+    cursor:pointer;
+}
+.message .message-item p {
+/*    width: 240px;
+    height: 180px;
+    margin: 50px 0 0 20px;
+    overflow: hidden;
+    word-wrap: break-word;*/
+    width: 250px;
+    height: 240px;
+    margin: 22px 0 0 20px;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-indent: 4em;
+    font-size: 14px;
+}
+
+#b1{
+    position:absolute;
+    top:100px;
+    right:200px;
+}
+
+.showDate{
+    width: 160px;
+    height: 28px;
+    position: absolute;
+    bottom: 2px;
+    left: 24px;
+}
+
+
+
+
